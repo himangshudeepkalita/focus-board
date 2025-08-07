@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+.date-container {
+    font-family: "Open Sans", sans-serif;
+    right: 0;
+    top: 0;
+    position: absolute;
+    padding: 0 1rem;
+    margin-top: 25px;
+}
+
+.weather-container {
+    font-family: "Inter", sans-serif;
+    margin: 1rem;
+    position: absolute;
+}
+
+.temp {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.city {
+    text-align: center;
+    margin: 4px 0;
+}
+
+.welcome {
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    text-align: center;
+    padding: 1rem;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
+}
+
+.timestamp {
+    font-size: 8rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 600px) {
+        font-size: 5rem;
+    }
+}
+
+.greeting {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 600px) {
+        font-size: 3rem;
+    }
+}
+
+.quote-container {
+     font-family: "Noto Sans Georgian", sans-serif;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    @media screen and (max-width: 600px) {
+        width: 350px;
+        margin-left: -175px;
+    }
+}
+
+.text {
+    /* font-size: 1.2rem; */
+    margin: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.author {
+    margin-top: 1rem;
+  font-size: 1rem;
+  /* font-style: italic; */
+  /* color: #ccc; */
+}
